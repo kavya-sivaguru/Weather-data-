@@ -63,37 +63,9 @@ api
       card_header.append(title, img);
       card.append(card_header, card_body);
       col.append(card);
-      row.append(col);
-
-        
-        // let capital = createElement('p', 'card-text');
-        // capital.innerHTML = `Capital: ${data[i].capital}`;
-        
-        // let region = createElement('p', 'card-text');
-        // region.innerHTML = `Region: ${data[i].region}`;
-        
-        // let country_code = createElement('p', 'card-text');
-        // country_code.innerHTML = `Country code: ${data[i].alpha3code}`;
-        
-        // let button = createElement('button', 'btn btn-danger');
-        // button.dataset.id = `{data[i].capital}`;
-        // button.innerHTML = "Click for WEATHER";
-        // button.addEventListner('click', () => { weatherData(data[i], btn)})
-        
-        // let card_header = createTag("div", "card-header");
-        // card_header.setAttribute("style", "padding:0px");
-        
-        
-        // card_header.append(title, img);
-        // card.append(card_header, card_body);
-        // card_body.append(capital, region, country_code, button);
-        // col.append(card);
-        // row.append(col);
-        
-    
-}
-// document.body.append(row);
-}
+      row.append(col);   
+     }
+   }
 )
 .catch((err)=>{
     console.log(err);
